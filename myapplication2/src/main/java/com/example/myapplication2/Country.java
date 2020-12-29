@@ -6,10 +6,10 @@ public class Country {
     private String flagName;
     private String description;
 
-    public Country(String countryName, String flagName, String description) {
+    public Country(String countryName, String flagName) {
         this.countryName= countryName;
         this.flagName= flagName;
-        this.description = description;
+        this.description = null;
     }
 
     public String getDescription() {

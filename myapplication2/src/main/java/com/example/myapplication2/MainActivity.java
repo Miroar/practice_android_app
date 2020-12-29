@@ -28,11 +28,11 @@ public class MainActivity extends AppCompatActivity {
 
     private  List<Country> getListData() {
         List<Country> list = new ArrayList<Country>();
-        Country vietnam = new Country("Vietnam", "vn", "kekw");
-        Country usa = new Country("United States", "us", "kekw");
-        Country russia = new Country("Russia", "ru", "kekw");
-        Country australia = new Country("Australia", "au", "kekw");
-        Country japan = new Country("Japan", "jp", "kekw");
+        Country vietnam = new Country("Vietnam", "vn");
+        Country usa = new Country("United States", "us");
+        Country russia = new Country("Russia", "ru");
+        Country australia = new Country("Australia", "au");
+        Country japan = new Country("Japan", "jp");
 
         list.add(vietnam);
         list.add(usa);

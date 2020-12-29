@@ -77,7 +77,7 @@ public class CustomRecyclerViewAdapter extends RecyclerView.Adapter<CountryViewH
         String line = bufferedReader.readLine();
         line = line.substring(0, Math.min(line.length(), 50));
         bufferedReader.close();
-        return line;
+        return line+"...";
     }
 
     private void handleRecyclerItemClick(RecyclerView recyclerView, View itemView) {
